@@ -6789,10 +6789,10 @@ function(h) {
     function t(t) {
       var e = a.call(this, t) || this,
         i = h.Context._server;
-      e.add(new f(i + "data/model/pmd/tex.json", t, !0, !0)), e.add(new f(i + "img/three/tex.json", t, !0)), e.add(new f(i + "img/pixi/tex.json", t, !1));
-      var n = "data/model/pmd/crystal.pmd",
-        s = "data/model/pmd/cubic_miku.pmd";
-      return 0 <= navigator.userAgent.indexOf("Firefox") && (n = n.split("pmd/").join("pmd_ff/"), s = s.split("pmd/").join("pmd_ff/")), e.add(new d(i + n, "data/model/pmd/", t, r.PMD_CRYSTAL)), e.add(new d(i + s, "data/model/pmd/", t, r.PMD_NYNACO)), e.add(new u(i + "data/model/vmd/vmd1.zip", t)), e
+      e.add(new f(i + "/mikumikufantasy_chinese/data/model/pmd/tex.json", t, !0, !0)), e.add(new f(i + "/mikumikufantasy_chinese/img/three/tex.json", t, !0)), e.add(new f(i + "/mikumikufantasy_chinese/img/pixi/tex.json", t, !1));
+      var n = "/mikumikufantasy_chinese/data/model/pmd/crystal.pmd",
+        s = "/mikumikufantasy_chinese/data/model/pmd/cubic_miku.pmd";
+      return 0 <= navigator.userAgent.indexOf("Firefox") && (n = n.split("pmd/").join("pmd_ff/"), s = s.split("pmd/").join("pmd_ff/")), e.add(new d(i + n, "/mikumikufantasy_chinese/data/model/pmd/", t, r.PMD_CRYSTAL)), e.add(new d(i + s, "/mikumikufantasy_chinese/data/model/pmd/", t, r.PMD_NYNACO)), e.add(new u(i + "/mikumikufantasy_chinese/data/model/vmd/vmd1.zip", t)), e
     }
     return __extends(t, a), t
   }(h.SequentialCommand);
@@ -6801,7 +6801,7 @@ function(h) {
     function t(t) {
       var e = n.call(this, t) || this,
         i = h.Context._server;
-      return e.add(new p(i + "data/sound/dungeon.mp3", t, r.BGM_MAP, !1, .0015)), aidn.util.webaudio && e.add(new f(i + "data/sound/1/sound.json", t)), e
+      return e.add(new p(i + "/mikumikufantasy_chinese/data/sound/dungeon.mp3", t, r.BGM_MAP, !1, .0015)), aidn.util.webaudio && e.add(new f(i + "/mikumikufantasy_chinese/data/sound/1/sound.json", t)), e
     }
     return __extends(t, n), t
   }(h.SequentialCommand);
@@ -6810,7 +6810,7 @@ function(h) {
     function t(t) {
       var e = n.call(this, t) || this,
         i = h.Context._server;
-      return e.add(new u(i + "data/model/vmd/vmd2.zip", t)), e.add(new f(i + "img/three_battle/tex.json", t, !0)), e
+      return e.add(new u(i + "/mikumikufantasy_chinese/data/model/vmd/vmd2.zip", t)), e.add(new f(i + "/mikumikufantasy_chinese/img/three_battle/tex.json", t, !0)), e
     }
     return __extends(t, n), t
   }(h.SequentialCommand);
@@ -6819,7 +6819,7 @@ function(h) {
     function t(t) {
       var e = n.call(this, t) || this,
         i = h.Context._server;
-      return e.add(new p(i + "data/sound/boss.mp3", t, r.BGM_BATTLE, !1, .0015)), aidn.util.webaudio && e.add(new f(i + "data/sound/2/sound.json", t)), e
+      return e.add(new p(i + "/mikumikufantasy_chinese/data/sound/boss.mp3", t, r.BGM_BATTLE, !1, .0015)), aidn.util.webaudio && e.add(new f(i + "/mikumikufantasy_chinese/data/sound/2/sound.json", t)), e
     }
     return __extends(t, n), t
   }(h.SequentialCommand);
