@@ -674,7 +674,7 @@ function(a) {
       switch (this._core.sceneId) {
         case h.TOP:
         case h.LOADING:
-          location.href = "../contents/";
+          location.href = "https://aidn.jp/contents";
           break;
         default:
           this._core.main.playScene(h.TOP, 0)
